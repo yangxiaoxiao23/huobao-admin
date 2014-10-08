@@ -1,0 +1,6 @@
+/* 标题头 */
+.bill-header .ui.label {width:auto !important;}
+
+.bill-wrap {margin-top:10px;}
+.bill-detail {color:#666;text-decoration: none;}
+.bill-detail:hover {text-decoration: none;}

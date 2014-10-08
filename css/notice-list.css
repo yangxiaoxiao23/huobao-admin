@@ -1,0 +1,34 @@
+/*内容主题体 */
+
+.container-bd {}
+
+.container-bd .icon-action-wrap{margin-top: 20px;}
+
+.container-bd .icon-action-wrap .icon {float:left;}
+.container-bd .icon-action-wrap .icon h2 {}
+.container-bd .icon-action-wrap .icon h2 a {display:inline-block;width:121px;height:80px;background: url(../images/88.jpg) no-repeat;text-indent: -9999px;}
+
+.container-bd .icon-action-wrap .action-wrap {float:right;}
+
+.container-bd .icon-action-wrap .action-wrap .pulish-wrap {margin-right:10px;margin-bottom: 10px;text-align: right;}
+.container-bd .icon-action-wrap .action-wrap .pulish-wrap .pulish-btn {padding:3px 10px;background-color: #2b78e4;color: #fff;font-size: 16px;border:none;border-radius: 3px;cursor: pointer;}
+
+.container-bd .icon-action-wrap .action-wrap .search-wrap {}
+.container-bd .icon-action-wrap .action-wrap .search-wrap .search-inp {float:left;}
+.container-bd .icon-action-wrap .action-wrap .search-wrap .search-inp input {padding: 2px 5px;height:18px;line-height: 18px;background:#eeeeee;border:1px solid #cecece;border-radius: 2px;}
+.container-bd .icon-action-wrap .action-wrap .search-wrap .search-btn {float:left;}
+.container-bd .icon-action-wrap .action-wrap .search-wrap .search-btn button {padding: 0px 5px;margin:0 10px;background:#eeeeee;border:1px solid #cecece;height:24px;border-radius: 2px;cursor: pointer;}
+
+
+.container-bd .notice-wrap{}
+.container-bd .notice-wrap .notice-list {}
+.container-bd .notice-wrap .notice-list .notice-bd {padding:5px 10px;margin-bottom: 10px;border: 1px solid #ddd;border-bottom-color: #bbb;background-color: #fff;}
+.container-bd .notice-wrap .notice-list .notice-bd:hover{box-shadow:0 0 8px #aaa;border-color:#bbb}
+.container-bd .notice-wrap .notice-list .notice-bd .notice-title {padding:5px 0;}
+.container-bd .notice-wrap .notice-list .notice-bd .notice-title a {font-size:16px;font-weight: bold;font-family: '微软雅黑', '黑体';color:#0069ca;}
+.container-bd .notice-wrap .notice-list .notice-bd .notice-title a:hover {color: #f60;text-decoration: none;}
+.container-bd .notice-wrap .notice-list .notice-bd .notice-con {padding:10px 0;color:#888;font:12px/1.5 '微软雅黑', '黑体';}
+.container-bd .notice-wrap .notice-list .notice-bd .notice-ft {}
+.container-bd .notice-wrap .notice-list .notice-bd .notice-ft .rev-del-wrap {float: left;}
+    .rev-del-wrap .delNotice, .rev-del-wrap .reviewNotice{padding:0 5px;margin-right:10px;background:#eeeeee;border:1px solid #cecece;height:24px;border-radius: 2px;cursor: pointer;}
+.container-bd .notice-wrap .notice-list .notice-bd .notice-ft .pu-time {float: right;}

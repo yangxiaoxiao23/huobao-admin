@@ -1,0 +1,44 @@
+.container {width:1000px;margin: 0 auto;min-width: 1000px;}
+
+/* 顶部工具栏样式 */
+.toolbar-wrap {background: #000;}
+/*logo区域*/
+.logo-bd {}
+.logo-bd .logo {height: 90px;line-height: 90px;width:300px;}
+.logo-bd .logo a {font-size:32px;font-family:'黑体', '微软雅黑';color:#fff;}
+.logo-bd .logo a:hover {text-decoration: none;}
+
+/*广告区域*/
+.adv-wrap .adv-bd {}
+.adv-wrap .adv-bd img {width:100%;height: 90px;}
+
+/* 导航 */
+.nav-wrap {padding:5px 0;}
+.nav a {font-size:14px !important;}
+.nav .active.item.no-sub:after {display: none !important;}
+
+/* banner */
+.banner {font-size:12px;padding:8px 0;background: #fff;}
+.community {height: 37px;line-height: 37px;text-align: center;}
+.community a {font-size:14px;color:#333;font-weight: bold;}
+.sub-nav {margin: 0 !important;}
+
+/*最后一次登陆时间 子菜单*/
+.last-log-date , .sub-nav a {font-size:12px !important;}
+.sub-nav-wrap section {display: none;}
+.sub-nav-wrap section.active {display: block;}
+
+/* 头部 */
+.con-header .ui.grid {text-align: right;}
+.con-header .finance a {
+    display: inline-block;
+    width: 121px;
+    height: 50px;
+    background: url(../images/88.jpg) no-repeat;
+    text-indent: -9999px;
+}
+
+i.loading.icon {
+    box-shadow: none !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}

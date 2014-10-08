@@ -1,0 +1,43 @@
+.conbd {width:1000px;margin: 0 auto;min-width: 1000px;}
+
+/*  顶部工具栏  */
+.toolbar-bd {height: 68px;line-height: 68px;}
+.toolbar-bd .logo-wrap {}
+.toolbar-bd .logo-wrap .logo-bd {}
+.toolbar-bd .logo-wrap .logo-bd .logo {padding-left: 20px;}
+
+/* 头部 */
+.header-bd {height:94px;line-height: 94px;}
+.header-bd h2 {}
+
+/*内容主体*/
+.container-bd {height: 400px;margin-bottom: 100px;}
+.container-bd .con-slide {}
+.container-bd .con-slide .slide-bd {position: relative;margin-right:10px;width:640px;height:398px;overflow: hidden;}
+.container-bd .con-slide .slide-bd .slide-ul {position: relative;margin: 0 auto;height:400px;overflow: hidden;}
+.container-bd .con-slide .slide-bd .slide-ul li {float:left;width:640px;}
+.container-bd .con-slide .slide-bd .slide-ul li img {width:100%;height:400px;}
+.container-bd .con-slide .slide-bd .slide-flag {position: absolute;bottom: 10px;width:100%;height: 16px;line-height: 16px;overflow: hidden;text-align: center;}
+.container-bd .con-slide .slide-bd .slide-flag dd {display: inline-block;_display: inline;_zoom: 1;height: 8px;width: 8px;margin:0 5px;text-align: center;cursor: pointer;border-radius: 50%;}
+
+
+.container-bd .con-login {padding:0 15px;width:270px;height:390px;}
+.container-bd .con-login .login-label {padding:0 5px;height:70px;line-height: 70px;}
+.container-bd .con-login .login-label h3 {}
+.container-bd .con-login .login-label h3 a {}
+.container-bd .con-login .login-grid {margin: 35px 0 10px;}
+.container-bd .con-login .login-grid tr {}
+.container-bd .con-login .login-grid tr td {padding:1px 0;}
+.container-bd .con-login .login-grid tr td.label {width:60px;text-align: center;}
+.container-bd .con-login .login-grid tr td.widget {}
+.container-bd .con-login .login-grid tr td input {width:195px;padding:2px 5px;}
+.container-bd .con-login p.forget-pw {height:20px; line-height: 20px;text-align: right;}
+.container-bd .con-login .btn-wrap {text-align: center;margin-top: 80px;}
+.container-bd .con-login .btn-wrap button {line-height: 20px;padding:10px 65px;cursor: pointer;}
+
+/* 底部 */
+.footer {}
+.footer-bd {height: 100px;}
+.footer-bd .about-us {padding-top: 10px;}
+.footer-bd .about-us ul {height: 30px;text-align: center;}
+.footer-bd .about-us ul li {display: inline-block;padding: 0 5px;}

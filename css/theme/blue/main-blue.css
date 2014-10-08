@@ -1,0 +1,38 @@
+/*  顶部工具栏  */
+.toolbar-bd .logo-wrap .logo-bd {background: #666;}
+.toolbar-bd .logo-wrap .logo-bd .logo a {color:#fff;font-size:24px;font-family:  '黑体', '微软雅黑', Arial,Tahoma,"Hiragino Sans GB",STHeiti;}
+
+/* 头部 */
+.header-bd h2 a {color:#000;font-size:18px;font-family: '黑体', '微软雅黑', Arial,Tahoma,"Hiragino Sans GB",STHeiti;}
+
+/*内容主体*/
+.container-bd {}
+.container-bd .con-slide {}
+
+.container-bd .con-slide .slide-bd .slide-flag dd {color: #fff;background: #2f4d95;}
+.container-bd .con-slide .slide-bd .slide-flag dd.active {background: #ed5736;}
+
+.container-bd .con-login {border:5px solid #9fc5f8;border-radius: 5px;}
+.container-bd .con-login .login-label {border-bottom: 2px solid #b7d3fa;}
+.container-bd .con-login .login-label h3 {font-size: 20px;}
+.container-bd .con-login .login-label h3 a {font-size:14px;color:#0d5ea5;}
+.container-bd .con-login .login-grid {}
+.container-bd .con-login .login-grid tr {}
+.container-bd .con-login .login-grid tr td {}
+.container-bd .con-login .login-grid tr td.label {color:#333;font-size: 14px;}
+.container-bd .con-login .login-grid tr td.widget {}
+.container-bd .con-login .login-grid tr td input {border: 2px solid #eeeeee;border-radius: 3px;}
+.container-bd .con-login p.forget-pw {}
+.container-bd .con-login p.forget-pw a {color:#0d5ea5;font-size:12px;font-family: inherit;}
+.container-bd .con-login p.forget-pw a:hover {color:#eb672e;}
+.container-bd .con-login .btn-wrap {}
+.container-bd .con-login .btn-wrap button {background: #9fc5f8;border: 2px solid #cecece;border-radius:5px;color:#333;font-size:20px;}
+.container-bd .con-login .btn-wrap button:hover {border-color: #cdcdcd;box-shadow: 0 0 4px #cdcdcd;}
+
+
+/* 底部 */
+.footer-bd {}
+.footer-bd .about-us {border-top: 1px dashed #cfe2fc;}
+.footer-bd .about-us ul {color:#475743;}
+.footer-bd .about-us ul li a {color:#0a5394;}
+.footer-bd .about-us ul li a:hover {color:#eb672e;}
