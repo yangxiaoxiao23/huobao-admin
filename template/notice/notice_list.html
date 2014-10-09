@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>通知列表</title>
     <link rel="stylesheet" type="text/css" href="../../css/public.css">
     <link rel="stylesheet" type="text/css" href="../../css/public-style.css">
     <link rel="stylesheet" type="text/css" href="../../libs/semantic/packaged/css/semantic.min.css">
@@ -39,11 +39,11 @@
                     </h2>
                 </div>
                 <div class="fourteen wide column">
-                    <div class="nav ui orange pointing menu">
-                        <a class="active item no-sub" data-type="home">
+                    <div class="nav ui orange pointing menu" id="main-nav">
+                        <a class="item no-sub" data-type="home">
                             <i class="home icon"></i> 主页
                         </a>
-                        <a class="item" data-type="notice">
+                        <a class="active item" data-type="notice">
                             <i class="fa fa-bell-o icon"></i> 通知
                         </a>
                         <a class="item" data-type="cost">
@@ -74,7 +74,7 @@
                     <p class="last-log-date">上次登陆时间: 2014-05-04</p>
                 </div>
                 <div class="thirteen wide column sub-nav-wrap">
-                    <section data-type="notice">
+                    <section class="active" data-type="notice">
                         <div class="ui text menu sub-nav">
                             <a class="active item">
                                 <i class="home icon"></i> 我的通知
@@ -98,7 +98,7 @@
                     </section>
                     <section data-type="bill">
                         <div class="ui text menu sub-nav">
-                            <a class="active item">
+                            <a class="item">
                                 <i class="home icon"></i> 维修报修
                             </a>
                             <a class="item">
@@ -106,6 +106,32 @@
                             </a>
                             <a class="item">
                                 <i class="user icon"></i> 快递代收
+                            </a>
+                        </div>
+                    </section>
+                    <section data-type="cost">
+                        <div class="ui text menu sub-nav">
+                            <a class="item">
+                                <i class="home icon"></i> 费用查询
+                            </a>
+                            <a class="item">
+                                <i class="time icon"></i> 物业宝抵扣
+                            </a>
+                            <a class="item">
+                                <i class="user icon"></i> 停车宝抵扣
+                            </a>
+                        </div>
+                    </section>
+                    <section data-type="business">
+                        <div class="ui text menu sub-nav">
+                            <a class="item">
+                                <i class="home icon"></i> 家政服务
+                            </a>
+                            <a class="item">
+                                <i class="time icon"></i> 生鲜团购
+                            </a>
+                            <a class="item">
+                                <i class="user icon"></i> 黄页
                             </a>
                         </div>
                     </section>
@@ -122,7 +148,11 @@
                     <h2><a href="">88财富网</a></h2>
                 </div>
                 <div class="action-wrap">
-                    <div class="pulish-wrap"><button class="pulish-btn"><i class="fa fa-pencil-square-o"></i> 发通知</button></div>
+                    <div class="pulish-wrap">
+                        <a href="publish-notice.html" target="_blank">
+                            <button class="pulish-btn"><i class="fa fa-pencil-square-o"></i> 发通知</button>
+                        </a>
+                    </div>
                     <div class="search-wrap">
                         <form action="">
                             <div class="search-inp"><input type="text" name="keyword" placeholder="请输入标题"/></div>
@@ -222,56 +252,7 @@
         </div>
     </div>
 
-    <!-- 底部工具栏 -->
-    <!--<div class="footer">
-        <div class="footer-bd conbd">
-            <div class="about-us">
-                <ul>
-                    <li><a href="#">免费注册</a></li>
-                    <li>|</li>
-                    <li><a href="#">关于我家</a></li>
-                    <li>|</li>
-                    <li><a href="#">诚聘英才</a></li>
-                    <li>|</li>
-                    <li><a href="#">代理合作</a></li>
-                    <li>|</li>
-                    <li><a href="#">联系我们</a></li>
-                    <li>|</li>
-                    <li><a href="#">服务说明</a></li>
-                    <li>|</li>
-                    <li><a href="#">分销联盟</a></li>
-                    <li>|</li>
-                    <li><a href="#">广告业务</a></li>
-                    <li>|</li>
-                    <li><a href="#">我要提建议</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>-->
-
-    <script>
-        $('.ui.dropdown').dropdown();
-
-
-        $(function(){
-            var $menuItem = $('.menu a.item, .menu .link.item'),
-                    $subNavSection = $('.sub-nav-wrap section'),
-                    handler = {
-                        activate: function() {
-                            if(!$(this).hasClass('dropdown')) {
-                                $(this).addClass('active').closest('.ui.menu')
-                                        .find('.item').not($(this)).removeClass('active');
-                            }
-                            var navType = $(this).attr('data-type');
-
-                            var mappingSubNav = $('.sub-nav-wrap section[data-type="' + navType + '"]');
-                            mappingSubNav.addClass('active');
-                            $subNavSection.not(mappingSubNav).removeClass('active');
-                        }
-                    };
-            $menuItem.on('click', handler.activate);
-        });
-
-    </script>
+    <!-- 加载发布的JS -->
+    <script type="text/javascript" src="../../js/public.js"></script>
 </body>
 </html>

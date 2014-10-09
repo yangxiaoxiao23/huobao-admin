@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>费用详情</title>
+    <title>黄页</title>
     <link rel="stylesheet" type="text/css" href="../../css/public.css">
     <link rel="stylesheet" type="text/css" href="../../css/public-style.css">
     <link rel="stylesheet" type="text/css" href="../../libs/semantic/packaged/css/semantic.css">
@@ -47,13 +47,13 @@
                     <a class="item" data-type="notice">
                         <i class="fa fa-bell-o icon"></i> 通知
                     </a>
-                    <a class="active item" data-type="cost">
+                    <a class="item" data-type="cost">
                         <i class="fa fa-money icon"></i> 费用
                     </a>
                     <a class="item" data-type="bill">
                         <i class="fa fa-file-text-o icon"></i> 提单
                     </a>
-                    <a class="item" data-type="business">
+                    <a class="active item" data-type="business">
                         <i class="fa fa-briefcase icon"></i> 商务
                     </a>
                     <a class="item" data-type="database">
@@ -123,6 +123,19 @@
                         </a>
                     </div>
                 </section>
+                <section data-type="business">
+                    <div class="ui text menu sub-nav">
+                        <a class="item">
+                            <i class="home icon"></i> 家政服务
+                        </a>
+                        <a class="item">
+                            <i class="time icon"></i> 生鲜团购
+                        </a>
+                        <a class="active item">
+                            <i class="user icon"></i> 黄页
+                        </a>
+                    </div>
+                </section>
             </div>
         </div>
     </div>
@@ -130,179 +143,222 @@
 
 <div class="main container">
     <div class="ui segment">
-        <table class="ui small table segment">
-            <thead>
-            <tr><th>房号</th>
-                <th>业主</th>
-                <th>管理费用</th>
-                <th>维修基金</th>
-                <th>电费</th>
-                <th>水费</th>
-                <th>排污费</th>
-                <th>垃圾处理费</th>
-                <th>滞纳金</th>
-                <th>收款合计</th>
-            </tr></thead>
-            <tbody>
+        <div class="con-header">
+            <div class="ui grid">
+                <div class="row">
+                    <div class="two wide column">
+                        <h2 class="finance"><a href="">88财富网</a></h2>
+                    </div>
+                    <div class="fourteen wide column">
+                        <!--<div class="ui grid">
+                            <div class="row">
+                                <div class="thirteen wide column">
 
-            <tr>
-                <td>01-02C</td>
-                <td>张三</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>23.12</td>
-                <td>523.12</td>
-            </tr>
-            <tr>
-                <td>01-02C</td>
-                <td>张三</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>23.12</td>
-                <td>523.12</td>
-            </tr>
-            <tr>
-                <td>01-02C</td>
-                <td>张三</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>23.12</td>
-                <td>523.12</td>
-            </tr>
-            <tr>
-                <td>01-02C</td>
-                <td>张三</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>23.12</td>
-                <td>523.12</td>
-            </tr>
-            <tr>
-                <td>01-02C</td>
-                <td>张三</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>23.12</td>
-                <td>523.12</td>
-            </tr>
-            <tr>
-                <td>01-02C</td>
-                <td>张三</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>23.12</td>
-                <td>523.12</td>
-            </tr>
-            <tr>
-                <td>01-02C</td>
-                <td>张三</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>23.12</td>
-                <td>523.12</td>
-            </tr>
-            <tr>
-                <td>01-02C</td>
-                <td>张三</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>23.12</td>
-                <td>523.12</td>
-            </tr>
-            <tr>
-                <td>01-02C</td>
-                <td>张三</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>321.1</td>
-                <td>43.12</td>
-                <td>23.12</td>
-                <td>523.12</td>
-            </tr>
-            </tbody>
-        </table>
-        <div class="ui grid">
-            <div class="row">
-                <div class="twelve column wide">
-                    <div class="ui small pagination menu">
-                        <a class="icon item"><i class="icon left arrow"></i></a>
-                        <a class="active item">1</a>
-                        <div class="disabled item">...</div>
-                        <a class="item">10</a>
-                        <a class="item">11</a>
-                        <a class="item">12</a>
-                        <a class="icon item"><i class="icon right arrow"></i></a>
+                                </div>
+                                <div class="three wide column right floated">
+                                    <div class="ui labeled icon button">
+                                        <i class="edit icon"></i>
+                                        发通知
+                                    </div>
+                                </div>
+                            </div>
+                        </div>-->
+
+                        <div class="ui grid">
+
+                            <div class="row">
+                                <div class="eleven wide column">
+
+                                </div>
+                                <div class="five wide column right floated">
+                                    <div class="ui mini action input">
+                                        <input class="small" type="text" placeholder="查询...">
+                                        <div class="ui tiny button">查询</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="four column wide">
-                    <div class="small page">当前 <b>6</b> 共 213</div>
-                </div>
-
             </div>
         </div>
 
+        <!-- 分割线 -->
+        <div class="ui divider"></div>
+
+        <div class="ui mini button orange" id="addAction">
+            <i class="add icon"></i>新增
+        </div>
+
+        <!-- 分割线 -->
+        <div class="ui divider"></div>
+
+        <div class="tableWrap">
+            <table class="ui small table segment">
+                <thead>
+                    <tr>
+                        <th>企业名</th>
+                        <th>电话</th>
+                        <th>地址</th>
+                        <th>联系人</th>
+                        <th>类别</th>
+                        <th>登记时间</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>中科创</td>
+                    <td>4008888888</td>
+                    <td>福田CBD卓越世纪中心</td>
+                    <td>李小姐</td>
+                    <td>金融</td>
+                    <td>2014-05-09</td>
+                </tr>
+
+                <tr>
+                    <td>中科创</td>
+                    <td>4008888888</td>
+                    <td>福田CBD卓越世纪中心</td>
+                    <td>李小姐</td>
+                    <td>金融</td>
+                    <td>2014-05-09</td>
+                </tr>
+
+                <tr>
+                    <td>中科创</td>
+                    <td>4008888888</td>
+                    <td>福田CBD卓越世纪中心</td>
+                    <td>李小姐</td>
+                    <td>金融</td>
+                    <td>2014-05-09</td>
+                </tr>
+
+                <tr>
+                    <td>中科创</td>
+                    <td>4008888888</td>
+                    <td>福田CBD卓越世纪中心</td>
+                    <td>李小姐</td>
+                    <td>金融</td>
+                    <td>2014-05-09</td>
+                </tr>
+
+                <tr>
+                    <td>中科创</td>
+                    <td>4008888888</td>
+                    <td>福田CBD卓越世纪中心</td>
+                    <td>李小姐</td>
+                    <td>金融</td>
+                    <td>2014-05-09</td>
+                </tr>
+
+                </tbody>
+            </table>
+
+            <div class="ui grid">
+                <div class="row">
+                    <div class="twelve column wide">
+                        <div class="ui small pagination menu">
+                            <a class="icon item"><i class="icon left arrow"></i></a>
+                            <a class="active item">1</a>
+
+                            <div class="disabled item">...</div>
+                            <a class="item">10</a>
+                            <a class="item">11</a>
+                            <a class="item">12</a>
+                            <a class="icon item"><i class="icon right arrow"></i></a>
+                        </div>
+                    </div>
+                    <div class="four column wide">
+                        <div class="small page">当前 <b>6</b> 共 213</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="ui dimmer page hidden">
+        <div class="ui test modal transition hidden" id="addFormWrap">
+            <i class="close icon"></i>
+            <div class="header">
+                新增企业黄页
+            </div>
+            <div class="content">
+                <div class="ui form segment">
+                    <div class="field">
+                        <label>企业名</label>
+                        <div class="ui left labeled icon input">
+                            <input type="text" placeholder="企业名">
+                            <i class="suitcase icon"></i>
+                            <div class="ui corner label">
+                                <i class="icon asterisk"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>地址</label>
+                        <div class="ui left labeled icon input">
+                            <input type="text" placeholder="地址">
+                            <i class="book icon"></i>
+                            <div class="ui corner label">
+                                <i class="icon asterisk"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="three fields">
+                        <div class="field">
+                            <label>联系人</label>
+                            <div class="ui left labeled icon input">
+                                <input placeholder="联系人" type="text">
+                                <i class="user icon"></i>
+                                <div class="ui corner label">
+                                    <i class="icon asterisk"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label>电话</label>
+                            <div class="ui left labeled icon input">
+                                <input placeholder="电话" type="text">
+                                <i class="phone icon"></i>
+                                <div class="ui corner label">
+                                    <i class="icon asterisk"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label>类别</label>
+                            <div class="ui left labeled icon input">
+                                <input placeholder="类别" type="text">
+                                <i class="asterisk icon"></i>
+                                <div class="ui corner label">
+                                    <i class="icon asterisk"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ui mini blue submit button right aligned"><i class="save icon"></i>保存</div>
+                </div>
+            </div>
+            <!--<div class="actions">
+                <div class="ui black button">
+                    不创建
+                </div>
+                <div class="ui positive right labeled icon button">
+                    创建
+                    <i class="checkmark icon"></i>
+                </div>
+            </div>-->
+        </div>
+
+    </div>
+
 </div>
 
-
-<script>
-    $('.ui.dropdown').dropdown();
-
-
-    /* 子菜单切换 */
-    $(function(){
-        var $menuItem = $('.menu a.item, .menu .link.item'),
-                $subNavSection = $('.sub-nav-wrap section'),
-                handler = {
-                    activate: function() {
-                        if(!$(this).hasClass('dropdown')) {
-                            $(this).addClass('active').closest('.ui.menu')
-                                    .find('.item').not($(this)).removeClass('active');
-                        }
-                        var navType = $(this).attr('data-type');
-
-                        var mappingSubNav = $('.sub-nav-wrap section[data-type="' + navType + '"]');
-                        mappingSubNav.addClass('active');
-                        $subNavSection.not(mappingSubNav).removeClass('active');
-                    }
-                };
-        $menuItem.on('click', handler.activate);
-    });
-
-</script>
+<!-- 加载发布的JS -->
+<script type="text/javascript" src="../../js/public.js"></script>
+<script type="text/javascript" src="../../js/business/yellowpage.js"></script>
 </body>
 </html>

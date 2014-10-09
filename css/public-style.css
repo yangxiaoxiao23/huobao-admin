@@ -42,3 +42,7 @@ i.loading.icon {
     box-shadow: none !important;
     background-color: rgba(0, 0, 0, 0) !important;
 }
+
+input[type="text"].small,
+input[type="tel"].small
+    {padding: 0.35em 1.2em !important;}
