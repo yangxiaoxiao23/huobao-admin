@@ -1,0 +1,22 @@
+OA: http://192.168.0.7/oa/themes/mskin/login/login.jsp
+
+SVN地址:
+
+	PC: svn://192.168.0.13:3338
+	用户名密码： yanghanbin/yanghanbin
+
+	Mobile: svn://192.168.0.205:3690/wldc    
+	用户名密码： :yanghanbin 123456
+
+测试站地址:
+	app接口 是 test.community.com
+	PC:192.168.0.13 test.h8.com 
+
+
+svn上的pc网代码，已经可以跑通登陆流程了，我对88的原代码删减了一些用不到的功能，前端js、css代码你可以自行处理，修改优化哈
+
+需要调13的代码的话，可以ssh登陆上去
+192.168.0.13(18866)
+root
+zkc@fast.39f.com.cn
+对应目录在/data0/htdocs/community_pc，直接链向svn的
