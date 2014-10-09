@@ -37,5 +37,8 @@ img,input{vertical-align: middle;border:0 none}
 /* 清除最小高度*/
 .fixedMiH {min-height: initial !important;}
 
+/* 清除边框,阴影 */
+.fixedBorderShadow {border:none !important; box-shadow: none !important; -webkit-box-shadow: none !important; -moz-box-shadow: none !important;-ms-box-shadow: none !important;}
+
 
 body {height:100%;min-width:960px;background: #f9f9f9;}

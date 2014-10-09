@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>家政服务</title>
+    <link rel="stylesheet" type="text/css" href="../../css/public.css">
+    <link rel="stylesheet" type="text/css" href="../../css/public-style.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/semantic/packaged/css/semantic.css">
+    <link rel="stylesheet" href="../../libs/font-awesome-4.2.0/css/font-awesome.min.css"/>
+
+    <link rel="stylesheet" href="../../css/domestic.css"/>
+
+    <script type="text/javascript" src="../../libs/jquery-1.8.3.js"></script>
+    <script src="../../libs/jquery.address.js"></script>
+    <script type="text/javascript" src="../../libs/semantic/packaged/javascript/semantic.js"></script>
+
+
+
+</head>
+<body>
+<div class="toolbar-wrap ui inverted grid">
+    <div class="row">
+        <div class="logo-bd three wide column">
+            <h1 class="logo">
+                <a href="notice_list.html">中科创智慧小区</a>
+            </h1>
+        </div>
+
+        <div class="adv-wrap thirteen wide column">
+            <div class="adv-bd"><img src="../../images/adv/adv1.jpg" alt="中科创智慧小区"/></div>
+        </div>
+    </div>
+</div>
+
+<div class="nav-wrap container">
+    <div class="ui grid">
+        <div class="row">
+            <div class="two wide column">
+                <h2 class="community">
+                    <a href="">金地梅陇镇</a>
+                </h2>
+            </div>
+            <div class="fourteen wide column">
+                <div class="nav ui orange pointing menu">
+                    <a class="item no-sub" data-type="home">
+                        <i class="home icon"></i> 主页
+                    </a>
+                    <a class="item" data-type="notice">
+                        <i class="fa fa-bell-o icon"></i> 通知
+                    </a>
+                    <a class="item" data-type="cost">
+                        <i class="fa fa-money icon"></i> 费用
+                    </a>
+                    <a class="item" data-type="bill">
+                        <i class="fa fa-file-text-o icon"></i> 提单
+                    </a>
+                    <a class="active item" data-type="business">
+                        <i class="fa fa-briefcase icon"></i> 商务
+                    </a>
+                    <a class="item" data-type="database">
+                        <i class="fa fa-database"></i> 大数据
+                    </a>
+                    <a class="item" data-type="setting">
+                        <i class="setting icon"></i> 设置
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="banner container">
+    <div class="ui grid">
+        <div class="row">
+            <div class="three wide column">
+                <p class="last-log-date">上次登陆时间: 2014-05-04</p>
+            </div>
+            <div class="thirteen wide column sub-nav-wrap">
+                <section data-type="notice">
+                    <div class="ui text menu sub-nav">
+                        <a class="active item">
+                            <i class="home icon"></i> 我的通知
+                        </a>
+                        <a class="item">
+                            <i class="time icon"></i> 历史通知
+                        </a>
+                        <a class="item">
+                            <i class="user icon"></i> 安防
+                        </a>
+                        <a class="item">
+                            <i class="user icon"></i> 保洁
+                        </a>
+                        <a class="item">
+                            <i class="user icon"></i> 工程
+                        </a>
+                        <a class="item">
+                            <i class="user icon"></i> 活动
+                        </a>
+                    </div>
+                </section>
+                <section data-type="bill">
+                    <div class="ui text menu sub-nav">
+                        <a class="active item">
+                            <i class="home icon"></i> 维修报修
+                        </a>
+                        <a class="item">
+                            <i class="time icon"></i> 投诉建议
+                        </a>
+                        <a class="item">
+                            <i class="user icon"></i> 快递代收
+                        </a>
+                    </div>
+                </section>
+
+                <section data-type="business">
+                    <div class="ui text menu sub-nav">
+                        <a class="active item">
+                            <i class="home icon"></i> 家政服务
+                        </a>
+                        <a class="item">
+                            <i class="time icon"></i> 生鲜团购
+                        </a>
+                        <a class="item">
+                            <i class="user icon"></i> 黄页
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main container">
+    <div class="ui segment">
+
+        <div class="con-header">
+            <div class="ui grid">
+                <div class="row">
+                    <div class="two wide column">
+                        <h2 class="finance"><a href="">88财富网</a></h2>
+                    </div>
+                    <div class="fourteen wide column">
+                        <!--<div class="ui grid">
+                            <div class="row">
+                                <div class="thirteen wide column">
+
+                                </div>
+                                <div class="three wide column right floated">
+                                    <div class="ui labeled icon button">
+                                        <i class="edit icon"></i>
+                                        发通知
+                                    </div>
+                                </div>
+                            </div>
+                        </div>-->
+
+                        <div class="ui grid">
+
+                            <div class="row">
+                                <div class="eleven wide column">
+
+                                </div>
+                                <div class="five wide column right floated">
+                                    <div class="ui mini action input">
+                                        <input type="text" placeholder="查询...">
+                                        <div class="ui tiny button">查询</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui segment">
+
+            <div class="tab segment">
+                <div class="ui tabular filter menu">
+                    <a class="item active" data-tab="product">产品</a>
+                    <a class="item" data-tab="order">订单</a>
+                </div>
+            </div>
+
+            <div class="tab-wrap">
+                <div class="ui selection tab active" data-tab="product">
+                    <div class="right segment ui aligned fixedBorderShadow">
+                        <div class="ui tiny buttons">
+                            <div class="ui orange small button"><i class="add icon"></i>新增</div>
+                        </div>
+                    </div>
+
+                    <div class="ui segment">
+                        <div class="ui grid">
+
+                            <div class="row">
+                                <div class="eight wide column">
+                                    <div class="ui label">
+                                        产品编号：
+                                        <div class="detail">1A001</div>
+                                    </div>
+                                </div>
+                                <div class="eight wide column">
+                                    <div class="ui label fr">
+                                        发布日期：
+                                        <div class="detail">2014-05-30</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 分割线 -->
+                            <div class="ui divider"></div>
+
+                            <div class="row">
+
+                                <div class="four column wide">
+                                    <div class="ui segment fixedBorderShadow">
+                                        <div class="ui bottom attached label"><a class="detail"><i class="legal icon"></i>成交记录23条</a></div>
+                                        <a href="javascript:void(0);" class="ui medium image">
+                                            <img src="../../images/domestic/d1.jpg">
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                                <div class="nine column wide">
+                                    <div class="ui raised segment fixedBorderShadow">
+                                        <div class="ui teal ribbon label">餐食服务</div>
+                                        <div class="content">周一至周五上门制作晚餐,两小时起定.需要上面制作晚餐的业主朋友可以点击应答按钮,我们将于一个工作日内联系业主,我们将根据您的需要,调配适合的阿姨.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="three column wide right aligned">
+                                    <div class="ui tiny button">
+                                        <i class="shuffle icon"></i>
+                                        撤销
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ui segment">
+                        <div class="ui grid">
+
+                            <div class="row">
+                                <div class="eight wide column">
+                                    <div class="ui label">
+                                        产品编号：
+                                        <div class="detail">1A001</div>
+                                    </div>
+                                </div>
+                                <div class="eight wide column">
+                                    <div class="ui label fr">
+                                        发布日期：
+                                        <div class="detail">2014-05-30</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 分割线 -->
+                            <div class="ui divider"></div>
+
+                            <div class="row">
+
+                                <div class="four column wide">
+                                    <div class="ui segment fixedBorderShadow">
+                                        <div class="ui bottom attached label"><a class="detail"><i class="legal icon"></i>成交记录23条</a></div>
+                                        <a href="javascript:void(0);" class="ui medium image">
+                                            <img src="../../images/domestic/d1.jpg">
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                                <div class="nine column wide">
+                                    <div class="ui raised segment fixedBorderShadow">
+                                        <div class="ui teal ribbon label">餐食服务</div>
+                                        <div class="content">周一至周五上门制作晚餐,两小时起定.需要上面制作晚餐的业主朋友可以点击应答按钮,我们将于一个工作日内联系业主,我们将根据您的需要,调配适合的阿姨.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="three column wide right aligned">
+                                    <div class="ui tiny button">
+                                        <i class="shuffle icon"></i>
+                                        撤销
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ui segment">
+                        <div class="ui grid">
+
+                            <div class="row">
+                                <div class="eight wide column">
+                                    <div class="ui label">
+                                        产品编号：
+                                        <div class="detail">1A001</div>
+                                    </div>
+                                </div>
+                                <div class="eight wide column">
+                                    <div class="ui label fr">
+                                        发布日期：
+                                        <div class="detail">2014-05-30</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 分割线 -->
+                            <div class="ui divider"></div>
+
+                            <div class="row">
+
+                                <div class="four column wide">
+                                    <div class="ui segment fixedBorderShadow">
+                                        <div class="ui bottom attached label"><a class="detail"><i class="legal icon"></i>成交记录23条</a></div>
+                                        <a href="javascript:void(0);" class="ui medium image">
+                                            <img src="../../images/domestic/d1.jpg">
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                                <div class="nine column wide">
+                                    <div class="ui raised segment fixedBorderShadow">
+                                        <div class="ui teal ribbon label">餐食服务</div>
+                                        <div class="content">周一至周五上门制作晚餐,两小时起定.需要上面制作晚餐的业主朋友可以点击应答按钮,我们将于一个工作日内联系业主,我们将根据您的需要,调配适合的阿姨.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="three column wide right aligned">
+                                    <div class="ui tiny button">
+                                        <i class="shuffle icon"></i>
+                                        撤销
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ui segment">
+                        <div class="ui grid">
+
+                            <div class="row">
+                                <div class="eight wide column">
+                                    <div class="ui label">
+                                        产品编号：
+                                        <div class="detail">1A001</div>
+                                    </div>
+                                </div>
+                                <div class="eight wide column">
+                                    <div class="ui label fr">
+                                        发布日期：
+                                        <div class="detail">2014-05-30</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 分割线 -->
+                            <div class="ui divider"></div>
+
+                            <div class="row">
+
+                                <div class="four column wide">
+                                    <div class="ui segment fixedBorderShadow">
+                                        <div class="ui bottom attached label"><a class="detail"><i class="legal icon"></i>成交记录23条</a></div>
+                                        <a href="javascript:void(0);" class="ui medium image">
+                                            <img src="../../images/domestic/d1.jpg">
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                                <div class="nine column wide">
+                                    <div class="ui raised segment fixedBorderShadow">
+                                        <div class="ui teal ribbon label">餐食服务</div>
+                                        <div class="content">周一至周五上门制作晚餐,两小时起定.需要上面制作晚餐的业主朋友可以点击应答按钮,我们将于一个工作日内联系业主,我们将根据您的需要,调配适合的阿姨.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="three column wide right aligned">
+                                    <div class="ui tiny button">
+                                        <i class="shuffle icon"></i>
+                                        撤销
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ui segment">
+                        <div class="ui grid">
+
+                            <div class="row">
+                                <div class="eight wide column">
+                                    <div class="ui label">
+                                        产品编号：
+                                        <div class="detail">1A001</div>
+                                    </div>
+                                </div>
+                                <div class="eight wide column">
+                                    <div class="ui label fr">
+                                        发布日期：
+                                        <div class="detail">2014-05-30</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 分割线 -->
+                            <div class="ui divider"></div>
+
+                            <div class="row">
+
+                                <div class="four column wide">
+                                    <div class="ui segment fixedBorderShadow">
+                                        <div class="ui bottom attached label"><a class="detail"><i class="legal icon"></i>成交记录23条</a></div>
+                                        <a href="javascript:void(0);" class="ui medium image">
+                                            <img src="../../images/domestic/d1.jpg">
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                                <div class="nine column wide">
+                                    <div class="ui raised segment fixedBorderShadow">
+                                        <div class="ui teal ribbon label">餐食服务</div>
+                                        <div class="content">周一至周五上门制作晚餐,两小时起定.需要上面制作晚餐的业主朋友可以点击应答按钮,我们将于一个工作日内联系业主,我们将根据您的需要,调配适合的阿姨.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="three column wide right aligned">
+                                    <div class="ui small button">
+                                        <i class="shuffle icon"></i>
+                                        撤销
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 分页控件  -->
+                    <div class="ui grid">
+                        <div class="row">
+                            <div class="twelve column wide">
+                                <div class="ui small pagination menu">
+                                    <a class="icon item"><i class="icon left arrow"></i></a>
+                                    <a class="active item">1</a>
+                                    <div class="disabled item">...</div>
+                                    <a class="item">10</a>
+                                    <a class="item">11</a>
+                                    <a class="item">12</a>
+                                    <a class="icon item"><i class="icon right arrow"></i></a>
+                                </div>
+                            </div>
+                            <div class="four column wide">
+                                <div class="small page">当前 <b>6</b> 共 213</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 订单 -->
+                <div class="ui selection tab" data-tab="order">
+                    <div class="right segment ui aligned fixedBorderShadow">
+                        <div class="ui tiny buttons">
+                            <div class="ui orange button"><i class="add icon"></i>新增</div>
+                        </div>
+                    </div>
+
+                    <table class="ui small table segment">
+                        <thead>
+                        <tr>
+                            <th>产品</th>
+                            <th>房号</th>
+                            <th>姓名</th>
+                            <th>手机号</th>
+                            <th>说明</th>
+                            <th>状态</th>
+                            <th>备注</th>
+                            <th>时间</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1A001</td>
+                                <td>1C201</td>
+                                <td>李大叔</td>
+                                <td>12345678911</td>
+                                <td>周一至周五,6点到8点,做晚饭,不吃辣.</td>
+                                <td>成交</td>
+                                <td>已安排张阿姨</td>
+                                <td>2014-05-10</td>
+                            </tr>
+                            <tr>
+                                <td>1A001</td>
+                                <td>1C201</td>
+                                <td>李大叔</td>
+                                <td>12345678911</td>
+                                <td>周一至周五,6点到8点,做晚饭,不吃辣.</td>
+                                <td>成交</td>
+                                <td>已安排张阿姨</td>
+                                <td>2014-05-10</td>
+                            </tr>
+                            <tr>
+                                <td>1A001</td>
+                                <td>1C201</td>
+                                <td>李大叔</td>
+                                <td>12345678911</td>
+                                <td>周一至周五,6点到8点,做晚饭,不吃辣.</td>
+                                <td>成交</td>
+                                <td>已安排张阿姨</td>
+                                <td>2014-05-10</td>
+                            </tr>
+                            <tr>
+                                <td>1A001</td>
+                                <td>1C201</td>
+                                <td>李大叔</td>
+                                <td>12345678911</td>
+                                <td>周一至周五,6点到8点,做晚饭,不吃辣.</td>
+                                <td>成交</td>
+                                <td>已安排张阿姨</td>
+                                <td>2014-05-10</td>
+                            </tr>
+                            <tr>
+                                <td>1A001</td>
+                                <td>1C201</td>
+                                <td>李大叔</td>
+                                <td>12345678911</td>
+                                <td>周一至周五,6点到8点,做晚饭,不吃辣.</td>
+                                <td>成交</td>
+                                <td>已安排张阿姨</td>
+                                <td>2014-05-10</td>
+                            </tr>
+                            <tr>
+                                <td>1A001</td>
+                                <td>1C201</td>
+                                <td>李大叔</td>
+                                <td>12345678911</td>
+                                <td>周一至周五,6点到8点,做晚饭,不吃辣.</td>
+                                <td>成交</td>
+                                <td>已安排张阿姨</td>
+                                <td>2014-05-10</td>
+                            </tr>
+                            <tr>
+                                <td>1A001</td>
+                                <td>1C201</td>
+                                <td>李大叔</td>
+                                <td>12345678911</td>
+                                <td>周一至周五,6点到8点,做晚饭,不吃辣.</td>
+                                <td>成交</td>
+                                <td>已安排张阿姨</td>
+                                <td>2014-05-10</td>
+                            </tr>
+                            <tr>
+                                <td>1A001</td>
+                                <td>1C201</td>
+                                <td>李大叔</td>
+                                <td>12345678911</td>
+                                <td>周一至周五,6点到8点,做晚饭,不吃辣.</td>
+                                <td>成交</td>
+                                <td>已安排张阿姨</td>
+                                <td>2014-05-10</td>
+                            </tr>
+                            <tr>
+                                <td>1A001</td>
+                                <td>1C201</td>
+                                <td>李大叔</td>
+                                <td>12345678911</td>
+                                <td>周一至周五,6点到8点,做晚饭,不吃辣.</td>
+                                <td>成交</td>
+                                <td>已安排张阿姨</td>
+                                <td>2014-05-10</td>
+                            </tr>
+                            <tr>
+                                <td>1A001</td>
+                                <td>1C201</td>
+                                <td>李大叔</td>
+                                <td>12345678911</td>
+                                <td>周一至周五,6点到8点,做晚饭,不吃辣.</td>
+                                <td>成交</td>
+                                <td>已安排张阿姨</td>
+                                <td>2014-05-10</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+
+                    <div class="ui grid">
+                        <div class="row">
+                            <div class="twelve column wide">
+                                <div class="ui small pagination menu">
+                                    <a class="icon item"><i class="icon left arrow"></i></a>
+                                    <a class="active item">1</a>
+                                    <div class="disabled item">...</div>
+                                    <a class="item">10</a>
+                                    <a class="item">11</a>
+                                    <a class="item">12</a>
+                                    <a class="icon item"><i class="icon right arrow"></i></a>
+                                </div>
+                            </div>
+                            <div class="four column wide">
+                                <div class="small page">当前 <b>6</b> 共 213</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+<script>
+    $('.ui.dropdown').dropdown();
+
+
+    /* 子菜单切换 */
+    $(function(){
+        var $menuItem = $('.menu a.item, .menu .link.item'),
+                $subNavSection = $('.sub-nav-wrap section'),
+                handler = {
+                    activate: function() {
+                        if(!$(this).hasClass('dropdown')) {
+                            $(this).addClass('active').closest('.ui.menu')
+                                    .find('.item').not($(this)).removeClass('active');
+                        }
+                        var navType = $(this).attr('data-type');
+
+                        var mappingSubNav = $('.sub-nav-wrap section[data-type="' + navType + '"]');
+                        mappingSubNav.addClass('active');
+                        $subNavSection.not(mappingSubNav).removeClass('active');
+                    }
+                };
+        $menuItem.on('click', handler.activate);
+    });
+
+    var oTabLabel = $('.filter.menu .item')
+    oTabLabel.tab();
+
+</script>
+</body>
+</html>
