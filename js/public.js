@@ -16,7 +16,18 @@ Handler = {
      */
     getSelectValue: function(oSelectEl, attr){
         return oSelectEl.find('.active').attr(attr || 'data-value');
+    },
+
+    /**
+     * @method getSelectText 获取模拟的下拉列表选中的文本
+     * @param oSelectEl 要获取的下来列表节点
+     * @returns {String} 返回选中的文本
+     */
+    getSelectText: function(oSelectEl){
+        return oSelectEl.find('.active').text();
     }
+
+
 }
 
 /**
@@ -64,4 +75,15 @@ $(function(){
     $subNavSection.hover(function(){
         clearTimeout(tasker);
     }, handler.deactivate);
+});
+
+$(function(){
+    /* tab 标签切换 */
+    var oTabLabel = $('.filter.menu .item');
+    oTabLabel.length && oTabLabel.tab();
+});
+
+$(function(){
+    //主菜单切换
+    $('.ui.dropdown').dropdown();
 });

@@ -3,12 +3,15 @@
  */
 
 $(function(){
-
-    //主菜单切换
-    $('.ui.dropdown').dropdown();
-
     //预览功能
-    $('#pre-modal').modal('attach events', '#pre-notice', 'show');
+    $('#pre-modal').modal('attach events', '#pre-notice', 'show').modal('setting', {
+        onShow: function(){
+            $('#J-rev-title').text($('#J-title').val());
+            $('#J-rev-type').text(Handler.getSelectText($('#J-notice-type')));
+            $('#J-rev-valid').text($('#J-valid').val());
+            $('#J-rev-content').html(CKEDITOR.instances['J-content'].getData());
+        }
+    });
 
     //保存功能
     (function(){

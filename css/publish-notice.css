@@ -5,3 +5,4 @@
 /* */
 .main .button, .main .input {font-size:12px !important;}
 
+.rev-content {height: 300px;overflow-y: auto;}

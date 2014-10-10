@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../../libs/semantic/packaged/css/semantic.css">
     <link rel="stylesheet" href="../../libs/font-awesome-4.2.0/css/font-awesome.min.css"/>
 
+    <link rel="stylesheet" type="text/css" href="../../libs/uploadify/uploadify.css">
 
     <link rel="stylesheet" href="../../css/cost.css"/>
 
@@ -141,7 +142,7 @@
 
                             <div class="ui horizontal segment right floated aligned fixedBorderShadow">
                                 <div class="row">
-                                    <div class="ui labeled icon button mini">
+                                    <div class="ui labeled icon button mini" id="J-export-tpl">
                                         <i class="edit icon"></i>
                                         导出模板
                                     </div>
@@ -244,16 +245,12 @@
                 </div>
 
                 <div class="field">
-                    <div class="ui small button">
-                        <i class="attachment icon"></i>
-                        附件
-                    </div>
-                    <input type="file">
+                    <input type="file" name="file_upload" id="file_upload" />
                 </div>
 
                 <div class="ui divider"></div>
 
-                <div class="progress-wrap">
+                <!--<div class="progress-wrap">
                     <div class="ui green top attached progress">
                         <div class="bar att-progress"></div>
                     </div>
@@ -263,9 +260,7 @@
                     <div class="ui green bottom attached progress">
                         <div class="bar att-progress"></div>
                     </div>
-                </div>
-
-                <div class="ui divider"></div>
+                </div>-->
 
                 <div class="actions">
                     <div class="ui small buttons">
@@ -279,11 +274,10 @@
 
     </div>
 
-
-
 <!-- 加载发布的JS -->
 <script type="text/javascript" src="../../js/public.js"></script>
 <script type="text/javascript" src="../../js/cost/query.js"></script>
 
+<script type="text/javascript" src="../../libs/uploadify/jquery.uploadify.min.js"></script>
 </body>
 </html>

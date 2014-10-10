@@ -44,11 +44,11 @@
                     </h2>
                 </div>
                 <div class="fourteen wide column">
-                    <div class="nav ui orange pointing menu">
-                        <a class="active item no-sub" data-type="home">
+                    <div class="nav ui orange pointing menu" id="main-nav">
+                        <a class="item no-sub" data-type="home">
                             <i class="home icon"></i> 主页
                         </a>
-                        <a class="item" data-type="notice">
+                        <a class="active item" data-type="notice">
                             <i class="fa fa-bell-o icon"></i> 通知
                         </a>
                         <a class="item" data-type="cost">
@@ -103,7 +103,7 @@
                     </section>
                     <section data-type="bill">
                         <div class="ui text menu sub-nav">
-                            <a class="active item">
+                            <a class="item">
                                 <i class="home icon"></i> 维修报修
                             </a>
                             <a class="item">
@@ -120,7 +120,7 @@
     </div>
 
     <div class="main container">
-        <div class="ui feed segment">
+        <div class="ui feed segment fixedBorderShadow">
 
             <div class="con-header">
                 <div class="ui grid">
@@ -223,9 +223,6 @@
                 <div class="tiny ui orange button"  id="J-send-btn">发送</div>
             </div>
 
-
-
-
         </div>
     </div>
 
@@ -233,18 +230,14 @@
         <div class="ui test modal transition hidden" id="pre-modal">
             <i class="close icon"></i>
             <div class="header">
-                小区停水通知
+                <h3 class="ui header center aligned" id="J-rev-title"></h3>
+                <div class="ui orange ribbon label" id="J-rev-type"></div>
             </div>
+            <div class="ui top right attached label blue">有效期限:<em id="J-rev-valid">0</em>天</div>
             <div class="content">
-                <p>尊敬的西半岛业主（住户）：</p>
-                <p>大家好！</p>
-                <p>接东西湖自来水公司通知，本周五（10月19日）8:00-17:30供电公司将对自来水海口加压泵停电检修，在此期间，金银湖片区停止供水。请业主朋友们提前做好储水准备，以备不时之需。
-                详情可咨询东西湖自来水公司：027-83891805    027- 83215137；如需帮助可拨打服务中心24小时服务电话：027-83230999、027-83231100；
-                特此温馨提示！</p>
+                <div class="rev-content" id="J-rev-content">
 
-
-                <p>xxxxxx</p>
-                <p>xxxx年xxxx日</p>
+                </div>
             </div>
             <!--<div class="actions">
                 <div class="ui black button">
