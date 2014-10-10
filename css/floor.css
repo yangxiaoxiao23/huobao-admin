@@ -1,0 +1,8 @@
+.floor {
+    cursor: pointer;
+    background: #0099FF !important;
+    padding: 5px 0 !important;
+    border-radius: 5px;
+    color: #fff !important;
+    margin: 5px 0 !important;
+}

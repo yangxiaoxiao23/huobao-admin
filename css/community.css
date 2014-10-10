@@ -1,0 +1,14 @@
+.building {
+    cursor: pointer;
+    background: #0099FF !important;
+    padding: 10px 0 !important;
+    border-radius: 5px;
+}
+
+.building.p10 {padding: 10px 0 !important;}
+.building.p20 {padding: 20px 0 !important;}
+.building.p30 {padding: 30px 0 !important;}
+.building.p40 {padding: 40px 0 !important;}
+.building.p50 {padding: 50px 0 !important;}
+.building.p60 {padding: 60px 0 !important;}
+.building.p70 {padding: 70px 0 !important;}

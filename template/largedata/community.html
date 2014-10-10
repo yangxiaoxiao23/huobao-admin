@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>小区楼栋分布图</title>
+    <link rel="stylesheet" type="text/css" href="../../css/public.css">
+    <link rel="stylesheet" type="text/css" href="../../css/public-style.css">
+    <link rel="stylesheet" type="text/css" href="../../libs/semantic/packaged/css/semantic.min.css">
+    <link rel="stylesheet" href="../../css/community.css"/>
+    <link rel="stylesheet" href="../../libs/font-awesome-4.2.0/css/font-awesome.min.css"/>
+
+    <script type="text/javascript" src="../../libs/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="../../libs/semantic/packaged/javascript/semantic.js"></script>
+
+
+
+</head>
+<body>
+    <div class="toolbar-wrap ui inverted grid">
+        <div class="row">
+            <div class="logo-bd three wide column">
+                <h1 class="logo">
+                    <a href="notice_list.html">中科创智慧小区</a>
+                </h1>
+            </div>
+
+            <div class="adv-wrap thirteen wide column">
+                <div class="adv-bd"><img src="../../images/adv/adv1.jpg" alt="中科创智慧小区"/></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-wrap container">
+        <div class="ui grid">
+            <div class="row">
+                <div class="two wide column">
+                    <h2 class="community">
+                        <a href="">金地梅陇镇</a>
+                    </h2>
+                </div>
+                <div class="fourteen wide column">
+                    <div class="nav ui orange pointing menu" id="main-nav">
+                        <a class="item no-sub" data-type="home">
+                            <i class="home icon"></i> 主页
+                        </a>
+                        <a class="active item" data-type="notice">
+                            <i class="fa fa-bell-o icon"></i> 通知
+                        </a>
+                        <a class="item" data-type="cost">
+                            <i class="fa fa-money icon"></i> 费用
+                        </a>
+                        <a class="item" data-type="bill">
+                            <i class="fa fa-file-text-o icon"></i> 提单
+                        </a>
+                        <a class="item" data-type="business">
+                            <i class="fa fa-briefcase icon"></i> 商务
+                        </a>
+                        <a class="item" data-type="database">
+                            <i class="fa fa-database"></i> 大数据
+                        </a>
+                        <a class="item" data-type="setting">
+                            <i class="setting icon"></i> 设置
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner container">
+        <div class="ui grid">
+            <div class="row">
+                <div class="three wide column">
+                    <p class="last-log-date">上次登陆时间: 2014-05-04</p>
+                </div>
+                <div class="thirteen wide column sub-nav-wrap">
+                    <section class="active" data-type="notice">
+                        <div class="ui text menu sub-nav">
+                            <a class="active item">
+                                <i class="home icon"></i> 我的通知
+                            </a>
+                            <a class="item">
+                                <i class="time icon"></i> 历史通知
+                            </a>
+                            <a class="item">
+                                <i class="user icon"></i> 安防
+                            </a>
+                            <a class="item">
+                                <i class="user icon"></i> 保洁
+                            </a>
+                            <a class="item">
+                                <i class="user icon"></i> 工程
+                            </a>
+                            <a class="item">
+                                <i class="user icon"></i> 活动
+                            </a>
+                        </div>
+                    </section>
+                    <section data-type="bill">
+                        <div class="ui text menu sub-nav">
+                            <a class="item">
+                                <i class="home icon"></i> 维修报修
+                            </a>
+                            <a class="item">
+                                <i class="time icon"></i> 投诉建议
+                            </a>
+                            <a class="item">
+                                <i class="user icon"></i> 快递代收
+                            </a>
+                        </div>
+                    </section>
+                    <section data-type="cost">
+                        <div class="ui text menu sub-nav">
+                            <a class="item">
+                                <i class="home icon"></i> 费用查询
+                            </a>
+                            <a class="item">
+                                <i class="time icon"></i> 物业宝抵扣
+                            </a>
+                            <a class="item">
+                                <i class="user icon"></i> 停车宝抵扣
+                            </a>
+                        </div>
+                    </section>
+
+                    <section data-type="business">
+                        <div class="ui text menu sub-nav">
+                            <a class="item">
+                                <i class="home icon"></i> 家政服务
+                            </a>
+                            <a class="item">
+                                <i class="time icon"></i> 生鲜团购
+                            </a>
+                            <a class="item">
+                                <i class="user icon"></i> 黄页
+                            </a>
+                        </div>
+                    </section>
+
+                    <section data-type="database">
+                        <div class="ui text menu sub-nav">
+                            <a class="item">
+                                <i class="home icon"></i> 数据分析
+                            </a>
+                            <a class="item">
+                                <i class="time icon"></i> 用户管理
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="main container">
+    <div class="ui segment fixedBorderShadow">
+
+        <div class="con-header">
+            <div class="ui grid">
+                <div class="row">
+                    <div class="two wide column">
+                        <h2 class="finance"><a href="">88财富网</a></h2>
+                    </div>
+                    <div class="fourteen wide column">
+                        <div class="ui grid">
+                            <div class="row">
+                                <div class="thirteen wide column">
+
+                                </div>
+                                <div class="three wide column right floated">
+                                    <a href="publish-notice.html" target="_blank">
+                                        <div class="ui labeled icon button mini">
+                                            <i class="edit icon"></i>
+                                            发通知
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui grid">
+
+                            <div class="row">
+                                <div class="eleven wide column">
+
+                                </div>
+                                <div class="five wide column right floated">
+                                    <div class="ui action input mini">
+                                        <input class="small" type="text" placeholder="请输入标题">
+                                        <div class="ui mini button">查询</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 分割线 -->
+        <div class="ui divider"></div>
+
+
+        <div class="ui segment">
+            <div class="ui grid">
+                <div class="row">
+                    <div class="one column wide"></div>
+                    <div class="fourteen column wide center aligned">
+                        深南大道
+                        <!-- 分割线 -->
+                        <div class="ui divider"></div>
+                    </div>
+                    <div class="one column wide"></div>
+                </div>
+
+
+                <div class="row">
+                    <div class="one column wide">1号路
+                    </div>
+
+                    <div class="fourteen column wide">
+                        <div class="ui grid relaxed">
+                            <div class="three column wide center aligned">
+                                <div class="building">
+                                    <p class="name">银海小区</p>
+                                    <p class="det">11栋(216户)</p>
+                                </div>
+                            </div>
+
+                            <div class="three column wide center aligned">
+                                <div class="building">
+                                    <p class="name">银海小区</p>
+                                    <p class="det">11栋(216户)</p>
+                                </div>
+                            </div>
+
+                            <div class="three column wide center aligned">
+                                <div class="building">
+                                    <p class="name">银海小区</p>
+                                    <p class="det">11栋(216户)</p>
+                                </div>
+                            </div>
+
+                            <div class="three column wide center aligned">
+                                <div class="building">
+                                    <p class="name">银海小区</p>
+                                    <p class="det">11栋(216户)</p>
+                                </div>
+                            </div>
+
+                            <div class="four column wide center aligned">
+                                <div class="building">
+                                    <p class="name">银海小区</p>
+                                    <p class="det">11栋(216户)</p>
+                                </div>
+                            </div>
+
+
+                                <div class="four column wide center aligned">
+                                    <div class="building">
+                                        <p class="name">银海小区</p>
+                                        <p class="det">11栋(216户)</p>
+                                    </div>
+                                </div>
+
+                                <div class="four column wide center aligned">
+                                    <div class="building">
+                                        <p class="name">银海小区</p>
+                                        <p class="det">11栋(216户)</p>
+                                    </div>
+                                </div>
+
+                                <div class="four column wide center aligned">
+                                    <div class="building">
+                                        <p class="name">银海小区</p>
+                                        <p class="det">11栋(216户)</p>
+                                    </div>
+                                </div>
+
+                                <div class="four column wide center aligned">
+                                    <div class="building p20">
+                                        <p class="name">银海小区</p>
+                                        <p class="det">11栋(216户)</p>
+                                    </div>
+                                </div>
+
+                                <div class="three column wide center aligned">
+                                    <div class="building">
+                                        <p class="name">银海小区</p>
+                                        <p class="det">11栋(216户)</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="one column wide">前海路</div>
+                </div>
+
+                <div class="row">
+                    <div class="one column wide"></div>
+                    <div class="fourteen column wide center aligned">
+                        <!-- 分割线 -->
+                        <div class="ui divider"></div>
+                        深南大道
+                    </div>
+                    <div class="one column wide"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- 加载发布的JS -->
+<script type="text/javascript" src="../../js/public.js"></script>
+
+<script type="text/javascript" src="../../js/largedata/community.js"></script>
+</body>
+</html>
