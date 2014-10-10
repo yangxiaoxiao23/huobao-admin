@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" href="../../css/largedata.css"/>
 
+    <link rel="stylesheet" type="text/css" href="../../libs/uploadify/uploadify.css">
+
     <script type="text/javascript" src="../../libs/jquery-1.8.3.js"></script>
     <script src="../../libs/jquery.address.js"></script>
 
@@ -125,6 +127,16 @@
                         </a>
                     </div>
                 </section>
+                <section data-type="database">
+                    <div class="ui text menu sub-nav">
+                        <a class="item">
+                            <i class="home icon"></i> 数据分析
+                        </a>
+                        <a class="item">
+                            <i class="time icon"></i> 用户管理
+                        </a>
+                    </div>
+                </section>
             </div>
         </div>
     </div>
@@ -169,11 +181,18 @@
             <div class="tab-wrap">
                 <!-- 业主 -->
                 <div class="ui selection tab active" data-tab="owner">
-                    <div class="right horizontal segment ui aligned fixedBorderShadow">
-                        <div class="ui mini buttons">
-                            <div class="ui button" id="J-owner-import">导入</div>
-                            <div class="or"></div>
-                            <div class="ui button" id="J-owner-export">导出</div>
+
+                    <div class="ui fixedBorderShadow">
+                        <div class="ui grid">
+                            <div class="row">
+                                <div class="ten column wide"></div>
+                                <div class="three column wide right aligned">
+                                    <input type="file" name="file_upload" id="J-owner-import" />
+                                </div>
+                                <div class="three column wide">
+                                    <input type="file" name="file_upload" id="J-owner-export" />
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -306,11 +325,17 @@
 
                 <!-- 家属 -->
                 <div class="ui selection tab" data-tab="family">
-                    <div class="right horizontal segment ui aligned fixedBorderShadow">
-                        <div class="ui mini buttons">
-                            <div class="ui button" id="J-family-import">导入</div>
-                            <div class="or"></div>
-                            <div class="ui button" id="J-family-export">导出</div>
+                    <div class="ui fixedBorderShadow">
+                        <div class="ui grid">
+                            <div class="row">
+                                <div class="ten column wide"></div>
+                                <div class="three column wide right aligned">
+                                    <input type="file" name="file_upload" id="J-family-import" />
+                                </div>
+                                <div class="three column wide">
+                                    <input type="file" name="file_upload" id="J-family-export" />
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -441,11 +466,18 @@
 
                 <!-- 租户 -->
                 <div class="ui selection tab" data-tab="renter">
-                    <div class="right horizontal segment ui aligned fixedBorderShadow">
-                        <div class="ui mini buttons">
-                            <div class="ui button" id="J-renter-import">导入</div>
-                            <div class="or"></div>
-                            <div class="ui button" id="J-renter-export">导出</div>
+
+                    <div class="ui fixedBorderShadow">
+                        <div class="ui grid">
+                            <div class="row">
+                                <div class="ten column wide"></div>
+                                <div class="three column wide right aligned">
+                                    <input type="file" name="file_upload" id="J-renter-import" />
+                                </div>
+                                <div class="three column wide">
+                                    <input type="file" name="file_upload" id="J-renter-export" />
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -582,5 +614,6 @@
 <script type="text/javascript" src="../../js/public.js"></script>
 <script type="text/javascript" src="../../js/largedata/user-manager.js"></script>
 
+<script type="text/javascript" src="../../libs/uploadify/jquery.uploadify.min.js"></script>
 </body>
 </html>
